@@ -1,0 +1,337 @@
+CSS RESET BY MYE WEB
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+  all: unset;
+}
+
+
+
+/*  */
+/*  Start of the fun  */
+/*  */
+
+body {
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.genresBox{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px 80px;
+  height: auto;
+  overflow: auto;
+}
+
+.genres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .1em;
+  box-sizing: border-box;
+  width: fit-content;
+  text-transform: capitalize;
+  
+  color: teal;
+  -webkit-text-stroke-width: .02em;
+  -webkit-text-stroke-color: rgba(0, 255, 255, 0.829);
+
+  font-family: 'IM Fell Great Primer SC', serif;
+}
+
+body {
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 70%);
+  overflow: hidden;
+  color: white;
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(white, white);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px white);
+  z-index: -1;
+  border: 4px solid aqua;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a:hover {
+  color: rgb(0, 180, 255);
+  cursor: pointer;
+  -webkit-text-stroke-width: .01em;
+  -webkit-text-stroke-color: aqua;
+}
+
+#submt{
+    width: 150px;
+    border: 2px solid aqua;
+    border-radius:20px 0 0 20px;
+    text-decoration: none;
+    color: aqua;
+    font-size: 2rem;
+    background-color: rgba(0, 128, 128, 0.123);
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+#submt:hover{
+  cursor: pointer;
+  background-color: black;
+  text-shadow: 
+  0 0 460px aqua,
+  0 0 100px aqua,
+  0 0 140px rgba(238, 255, 0, 0.884);
+}
+
+
+#input {
+  border: 2px solid aqua;
+  border-radius: 20px;
+  height: 1rem;
+  font-size:2em;
+  width: 10em;
+  box-sizing: border-box;
+  background-color: rgba(0, 128, 128, 0.123);
+  color: aqua;
+  padding: 20px;
+  margin: 2px;
+}
+#input:focus {
+  outline: none;
+  background-color: rgba(0, 128, 128, 0.527);
+  border: 2px solid aqua;
+  border-radius:  20px;
+  color: aqua;
+}
+
+
+
+
+
+
+
+
+/* Dropdown button */
+.dropdown .dropbtn, #profile {
+  font-family: 'Emilys Candy', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-family: 'Cinzel', serif;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  top: 5vh;
+  right: 5.5vw;
+  background-color: transparent;
+  min-width: 100px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: 10px auto;
+  font-size: 1rem;
+  font-family: 'Cinzel', serif;
+}
+.dropdown-content-profile {
+  display: none;
+  position: absolute;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  top: 5vh;
+  left: 5.5vw;
+  background-color: transparent;
+  min-width: 100px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: 10px auto;
+  font-size: 1rem;
+  font-family: 'Cinzel', serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content * {
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  float: none;
+  color: aqua;
+  background: teal;
+  padding: 5px;
+  margin: auto;
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.dropdown-content-profile * {
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  float: none;
+  color: aqua;
+  background: teal;
+  padding: 5px;
+  margin: auto;
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content *:hover {
+  background-color: black;
+  color: aqua;
+  cursor: pointer;
+}
+.dropdown-content-profile *:hover {
+  background-color: black;
+  color: aqua;
+  cursor: pointer;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropdown-content-profile {
+  display: block;
+}
+
+input {
+  border: 2px solid aqua;
+  border-radius: 0 20px 20px 0;
+  height: 1rem;
+  font-size:2rem;
+  width: 10em;
+  box-sizing: border-box;
+  background-color: rgba(0, 128, 128, 0.123);
+  color: aqua;
+  padding: 20.5px;
+  margin: 0 5px;
+}
+input:focus {
+  outline: none;
+  background-color: rgba(0, 128, 128, 0.527);
+  border: 2px solid aqua;
+  border-radius: 0 20px 20px 0;
+  color: aqua;
+}
+#x{
+  position: relative;
+  left: -1.4em;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: aqua;
+  font-size: 2em;
+  font-family: 'Cinzel', serif;
+}
+#x:hover {
+  cursor: pointer;
+  color: red;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+#user{
+  color: Teal;
+  font-size: 2rem;
+  margin: 30px;
+  line-height: 2em;
+  font-family: 'Cinzel', serif;
+}
+
+#songs{
+  height: 58vh;
+  overflow: auto;
+  font-family: 'Cinzel', serif;
+}
+#songNames{
+  color: aqua;
+  font-size: 2rem;
+  font-family: 'IM Fell Great Primer SC', serif;
+}
+#songNames:hover{
+  cursor: pointer;
+}
+
+
+#artists{
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+}
+#artists:hover{
+  cursor: default;
+}

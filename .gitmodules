@@ -1,0 +1,3 @@
+[submodule "Melodient"]
+	path = Melodient
+	url = https://github.com/WdRgrs/Melodient.git

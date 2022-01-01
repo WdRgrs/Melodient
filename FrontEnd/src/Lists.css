@@ -1,0 +1,45 @@
+/* Code me pretty boyos */
+/* body {
+    background: silver;
+  } */
+  
+  @keyframes stroke {
+    0% {
+      background: aquamarine;
+    }
+    20% {
+      background: blueviolet;
+    }
+    40% {
+      background: cornflowerblue;
+    }
+    60% {
+      background: thistle;
+    }
+    80% {
+      background: springgreen;
+    }
+    100% {
+      background: papayawhip;
+    }
+  }
+  
+  .mainDiv {
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* animation: stroke 100ms infinite linear alternate; */
+  }
+  p {
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
+  
+  .colorBtn {
+    position: relative;
+    transform: translateY(80vh);
+    margin-left: 1em;
+  }
+  
